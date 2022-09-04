@@ -30,8 +30,8 @@ let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
 limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+botname = 'Vaness'
+wm = '© Caesmon'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -658,14 +658,7 @@ break
 case 'sc':  case 'sourcecode': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 	anu = `
-⌕ Script : https://github.com/AzzBott679
-
-Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
-⌕ Saweria : Kaga ada
-⌕ Paypal : kaga ada
-
-Dont Forget Donate
+-
 `
 	let btn = [{
 urlButton: {
@@ -681,8 +674,7 @@ case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
 Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+⌕ all contributor
 
 `
 	let btn = [{
@@ -1283,6 +1275,12 @@ if (!isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot!'
 zets.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
 }
 break
+ case 'restart':
+             if (!isCreator) return 
+             reply(mess.wait)
+             exec(`node main`)
+             reply('_Restarting Bot Success_')
+             break
 case 'bcgc': case 'bcgroup': {
 if (!isCreator) throw mess.owner
 if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
@@ -2358,7 +2356,7 @@ if (/deep/.test(command)) set = '-af atempo=4/4,asetrate=44500*2/3'
 if (/earrape/.test(command)) set = '-af volume=12'
 if (/fast/.test(command)) set = '-filter:a "atempo=1.63,asetrate=44100"'
 if (/fat/.test(command)) set = '-filter:a "atempo=1.6,asetrate=22100"'
-if (/nightcore/.test(command)) set = '-filter:a atempo=1.06,asetrate=44100*1.25'
+if (/nightcore/.test(command)) set = '-filter:a atempo=0.90,asetrate=44100*1.25'
 if (/reverse/.test(command)) set = '-filter_complex "areverse"'
 if (/robot/.test(command)) set = '-filter_complex "afftfilt=real=\'hypot(re,im)*sin(0)\':imag=\'hypot(re,im)*cos(0)\':win_size=512:overlap=0.75"'
 if (/slow/.test(command)) set = '-filter:a "atempo=0.7,asetrate=44100"'
@@ -2669,7 +2667,7 @@ break
 
 case 'menu': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-buffer = `https://i.postimg.cc/PxTQPVrz/null-20220821-WA0032.jpg`
+buffer = `https://i.postimg.cc/vmfdXcYQ/1659861425179-da1ab2836a9da79faf55ddafb97f8b34-2-3-art.jpg`
 anu = `Hai kak ${pushname}, have a nice day:)
    
 ♕︎ *INFO - BOT*
@@ -2714,11 +2712,6 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}pinterestdl [url]
    ⚠︎ ${prefix}ytmp3 [url]
    ⚠︎ ${prefix}ytmp4 [url]
-   ⚠︎ ${prefix}getmusic [query]
-   ⚠︎ ${prefix}getvideo [query]
-   ⚠︎ ${prefix}umma [url]
-   ⚠︎ ${prefix}joox [query]
-   ⚠︎ ${prefix}soundcloud [url]
 
 ♕︎ *Searching*
    ⚠︎ ${prefix}play [query]
@@ -2730,59 +2723,11 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}wikimedia [query]
    ⚠︎ ${prefix}ytsearch [query]
    ⚠︎ ${prefix}ringtone [query]
-   ⚠︎ ${prefix}stalk [option] [query]
 
 ♕︎ *Random*
    ⚠︎ ${prefix}coffe
    ⚠︎ ${prefix}quotesanime
-   ⚠︎ ${prefix}motivasi
-   ⚠︎ ${prefix}dilanquote
-   ⚠︎ ${prefix}bucinquote
-   ⚠︎ ${prefix}katasenja
-   ⚠︎ ${prefix}puisi
    ⚠︎ ${prefix}couple
-   ⚠︎ ${prefix}anime
-   ⚠︎ ${prefix}waifu
-   ⚠︎ ${prefix}husbu
-   ⚠︎ ${prefix}neko
-   ⚠︎ ${prefix}shinobu
-   ⚠︎ ${prefix}waifus (nsfw)
-   ⚠︎ ${prefix}nekos (nsfw)
-   ⚠︎ ${prefix}trap (nsfw)
-   ⚠︎ ${prefix}blowjob (nsfw)
-
-♕︎ *Textpro*
-   ⚠︎ ${prefix}3dchristma
-   ⚠︎ ${prefix}3ddeepsea
-   ⚠︎ ${prefix}americanflag
-   ⚠︎ ${prefix}3dscifi
-   ⚠︎ ${prefix}3drainbow
-   ⚠︎ ${prefix}3dwaterpipe
-   ⚠︎ ${prefix}halloweenskeleton
-   ⚠︎ ${prefix}sketch
-   ⚠︎ ${prefix}bluecircuit
-   ⚠︎ ${prefix}space
-   ⚠︎ ${prefix}metallic
-   ⚠︎ ${prefix}fiction
-   ⚠︎ ${prefix}greenhorror
-   ⚠︎ ${prefix}transformer
-   ⚠︎ ${prefix}berry
-   ⚠︎ ${prefix}thunder
-   ⚠︎ ${prefix}magma
-   ⚠︎ ${prefix}3dcrackedstone
-   ⚠︎ ${prefix}3dneonlight
-   ⚠︎ ${prefix}impressiveglitch
-   ⚠︎ ${prefix}naturalleaves
-   ⚠︎ ${prefix}fireworksparkle
-   ⚠︎ ${prefix}matrix
-   ⚠︎ ${prefix}dropwater
-   ⚠︎ ${prefix}harrypotter
-   ⚠︎ ${prefix}foggywindow
-   ⚠︎ ${prefix}neondevils
-   ⚠︎ ${prefix}christmasholiday
-   ⚠︎ ${prefix}3dgradient
-   ⚠︎ ${prefix}blackpink
-   ⚠︎ ${prefix}gluetext
 
 ♕︎ *Fun*
    ⚠︎ ${prefix}halah
@@ -2833,7 +2778,6 @@ anu = `Hai kak ${pushname}, have a nice day:)
 
 ♕︎ *Convert*
    ⚠︎ ${prefix}toimage
-   ⚠︎ ${prefix}removebg
    ⚠︎ ${prefix}sticker
    ⚠︎ ${prefix}emojimix
    ⚠︎ ${prefix}tovideo
@@ -2842,8 +2786,6 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}tovn
    ⚠︎ ${prefix}tomp3
    ⚠︎ ${prefix}toaudio
-   ⚠︎ ${prefix}ebinary
-   ⚠︎ ${prefix}dbinary
    ⚠︎ ${prefix}styletext
 
 ♕︎ *Main*
@@ -2873,13 +2815,11 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}start
    ⚠︎ ${prefix}next
    ⚠︎ ${prefix}keluar
-   ⚠︎ ${prefix}sendkontak
 
 ♕︎ *Islam*
    ⚠︎ ${prefix}iqra
    ⚠︎ ${prefix}hadist
    ⚠︎ ${prefix}alquran
-   ⚠︎ ${prefix}juzamma
    ⚠︎ ${prefix}tafsirsurah
 
 ♕︎ *Voice Changer*

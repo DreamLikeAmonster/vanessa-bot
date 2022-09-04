@@ -16,16 +16,16 @@ global.xteam = 'apivproject'
 global.lolhuman = 'yourkey'
 
 // Other
-global.owner = ['6281511480762']
-global.premium = ['6281511480762']
-global.ownername = 'YahyaGanzz'
-global.botname = 'AzzBot•MD'
-global.packname = '© YahyaGanzz'
-global.gc = 'https://github.com/AzzBott679'
-global.linkyt = 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
-global.linkgc = 'https://chat.whatsapp.com/CkguID8hSdSFAaBrKNHLSr'
-global.limitawal = '10'
-global.author = '@yahyaganzz\n@AzzBot'
+global.owner = ['6287889347327']
+global.premium = ['6287889347327']
+global.ownername = 'Caesmon'
+global.botname = 'Vaness•Bot'
+global.packname = '© Vanessa'
+global.gc = 'https://chat.whatsapp.com/BDeYBP4IhRs8Pdc6iUCflN'
+global.linkyt = '-'
+global.linkgc = 'https://chat.whatsapp.com/BDeYBP4IhRs8Pdc6iUCflN'
+global.limitawal = '99999999'
+global.author = '@yahyaganzz\n@Caesmon'
 global.sessionName = 'sessionya'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⌕'
@@ -42,7 +42,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: 99999999
 }
 global.sc = fs.readFileSync('./media/sc.jpg')
 global.tq = fs.readFileSync('./media/tq.jpg')

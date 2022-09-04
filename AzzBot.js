@@ -1,5 +1,5 @@
 /**
-   * Create By Yahyaganzz
+   * Create By Vanessa 
 */
 
 require('./config')
@@ -658,7 +658,7 @@ break
 case 'sc':  case 'sourcecode': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 	anu = `
--
+https://github.com/DreamLikeAmonster/vanessa-bot
 `
 	let btn = [{
 urlButton: {
@@ -673,7 +673,7 @@ break
 case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
-Yahya Ganzz
+Vanessa
 ⌕ all contributor
 
 `
@@ -1293,7 +1293,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/DikaArdnt/zets-Morou'
+url: 'https://github.com/DreamLikeAmonster/vanessa-bot'
 }
 }]
   let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1312,7 +1312,7 @@ m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 
 		let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/DikaArdnt/zets-Morou'
+url: 'https://github.com/DreamLikeAmonster/vanessa-bot'
 }
 }]
   let txt = `「 Broadcast Bot 」\n\n${text}`

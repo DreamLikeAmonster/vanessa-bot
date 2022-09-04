@@ -651,8 +651,8 @@ delete this.suit[id]
 }
 }
 break
-	case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : https://www.paypal.me/Rifando35\n⌕ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+	case 'donasi': case 'sewabot': case 'sewa': case 'donate': {
+zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/vmfdXcYQ/1659861425179-da1ab2836a9da79faf55ddafb97f8b34-2-3-art.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6287889347327 (Owner)` }, { quoted: m })
 }
 break
 case 'sc':  case 'sourcecode': {

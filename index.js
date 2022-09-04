@@ -69,7 +69,7 @@ async function startzets() {
     const zets = zetsConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['AzzBot•MD','Safari','1.0.0'],
+        browser: ['VanessBot','Safari','1.0.0'],
         auth: state
     })
 
@@ -84,7 +84,7 @@ async function startzets() {
     for (let tihh of fatihh) {
     if (tihh.isGroup == false) {
     if (tihh.status == "offer") {
-    let pa7rick = await zets.sendTextWithMentions(tihh.from, `*${zets.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.from.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
+    let pa7rick = await zets.sendTextWithMentions(tihh.from, `*${zets.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.from.split('@')[0]} kamu akan diblokir !`)
     zets.sendContact(tihh.from, global.owner, pa7rick)
     await sleep(8000)
     await zets.updateBlockStatus(tihh.from, "block")

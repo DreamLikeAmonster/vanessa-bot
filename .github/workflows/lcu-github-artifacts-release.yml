@@ -13,7 +13,7 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm i -g pm2 &amp;&amp; pm2 start index.js &amp;&amp; pm2 save
+  InstallCommand: npm i
   BuildCommand: npm start
   Output: ./
 
